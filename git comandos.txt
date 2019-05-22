@@ -1,0 +1,36 @@
+Controler
+	userControler
+
+Services
+	userService interface
+	userServiceImplement
+	
+Repository
+	interface userRepository extend jparepository<user, serializable
+
+	
+Domain
+	-user
+-dto
+	userdto
+	
+Converter
+	converter interface
+	userConverter implement converter
+	
+GIT
+para subir un proyecto a un repositorio.
+Creamos el repositorio desde la web github
+desde la carpeta raiz del proyecto, boton derecho Git Bas Here
+>git init
+>git add .
+>git commit -m 'primer commit'
+ahora hay que ejecutar los dos lienas de comando que aparece en la web de nuestro repositorio para vincularlo al repositorio
+>git remote add origin https://github.com/fmerinoat/springThymelife.git
+>git push -u origin master
+> Refrescamos la pagina web github y ya tenemos el codigo subido.
+Tenemos que crear el archivo .gitignore para ello entramos en la web gitignore e introducimos el sistema operativo windows, .. y generamos el codigo que copiaremos en el archivo .gitignore que vamos a crear
+
+
+
+
